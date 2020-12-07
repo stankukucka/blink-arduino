@@ -17,12 +17,12 @@ while True: #while this statement is true execute script hereunder
     time.sleep(2) #light up led number 13 for 2 seconds
     board.digital[13].write(0)
     time.sleep(1) #light off led number 13 for 1 seconds
-    print("...Blink LED 3nd time") #print statement blink 3rd time
+    print("...Blink LED 3rd time") #print statement blink 3rd time
     board.digital[13].write(1)
     time.sleep(2) #light up led number 13 for 2 seconds
     board.digital[13].write(0)
     time.sleep(1) #light off led number 13 for 1 seconds
-    print("...Blink LED 4nd time") #print statement blink 4th time
+    print("...Blink LED 4th time") #print statement blink 4th time
     board.digital[13].write(1)
     time.sleep(2) #light up led number 13 for 2 seconds
     board.digital[13].write(0)
